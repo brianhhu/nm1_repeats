@@ -14,7 +14,7 @@ This generates numpy arrays storing the neural data, along with csv files that c
 To generate the example results, run
 
 ```python
-tca_neuropixel.py
+python tca_neuropixel.py
 ```
 
 This generates two plots in the /results folder for each NWB file: 1) a plot of error and similarity as a function of the rank of the decomposition, and 2) a visualization of the neuron, stimulus, and trials factors for a rank 3 decomposition.
